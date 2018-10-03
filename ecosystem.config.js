@@ -10,7 +10,7 @@ module.exports = {
       key: '~/.ssh/whiteravensound.pem',
       ref: 'origin/master',
       repo: 'git@github.com:azimpradhan/lumostree_api.git',
-      path: '/home/ec2-user/Sites/api.myinnerwork.com',
+      path: '/home/ec2-user/Sites/lumostree_api',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
