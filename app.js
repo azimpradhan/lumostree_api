@@ -12,7 +12,8 @@ app.use(jsonParser());
 
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://localhost:27017/lumostree");
+mongoose.connect('mongodb://0.0.0.0:27017/lumostree', { useNewUrlParser: true });
+
 
 const db = mongoose.connection;
 
